@@ -4,12 +4,9 @@
 \setmainfont{Segoe UI}
 \usepackage{multirow}
 \usepackage[utf8]{inputenc}
-\pagestyle{empty}
 \usepackage{float}
 \usepackage{graphicx}
-\usepackage[absolute]{textpos}
 \usepackage{array}
-\usepackage[table]{xcolor}
 \usepackage{booktabs}
 \usepackage{colortbl}
 \usepackage[english]{babel}
@@ -27,14 +24,22 @@
 
 \begin{document}
 
-\setlength{\parindent}{0pt}
-\begin{titlepage}
-\title{EDDF Pilot Briefing}
-\author{RG Frankfurt}
-\date{\today}
-\maketitle
-\end{titlepage}
+% \setlength{\parindent}{0pt}
+% \begin{titlepage}
+% \title{EDDF Pilot Briefing}
+% \author{RG Frankfurt}
+% \date{\today}
+% \maketitle
+% \end{titlepage}
 
+\begin{center}
+\huge
+\textbf{EDDF Pilot Briefing}
+
+\normalsize
+\DTMlangsetup{showdayofmonth=false}
+\today
+\end{center}
 \section{General Information}
 \input{gen}
 
